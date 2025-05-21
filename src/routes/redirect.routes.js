@@ -3,6 +3,6 @@ import { code } from "../controllers/redirect.controller.js";
 
 const router = Router();
 
-router.post("/:code", code);
+router.get("/:code", code);
 
 export default router;
