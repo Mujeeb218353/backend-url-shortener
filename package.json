@@ -1,0 +1,27 @@
+{
+  "name": "url-shortner-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Mujeeb Ur Rehman",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.15.0",
+    "nodemon": "^3.1.10",
+    "shortid": "^2.2.17",
+    "valid-url": "^1.0.9"
+  }
+}
