@@ -28,7 +28,7 @@ import urlRoutes from "./routes/url.routes.js";
 import redirectRoutes from "./routes/redirect.routes.js";
 
 app.use('/', urlRoutes);
-app.use('/api/url', redirectRoutes);
+app.use('/api', redirectRoutes);
 
 
 export default app;
